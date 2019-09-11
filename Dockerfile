@@ -1,4 +1,4 @@
-FROM alpine:edge
+FROM concourse/git-resource
 LABEL MAINTAINER="Troy Kinsella <troy.kinsella@gmail.com>"
 
 COPY assets/* /opt/resource/
